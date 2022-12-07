@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerveza Texcoco | Inicio</title>
+    <meta name="description" content="La autentica Cerveza Artesanal de Texcoco."/>
+    <meta name="keywords" content="cerveza, artesanal, texcoco, méxico" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/logo.jpg" />
+  </head>
+  <body class="gridContainer ">
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo3.jpg" alt="Logo Cerveza Texcoco" />
+        </a>
+        <button class="menuToggle">
+          <ion-icon name="menu-outline" class="toggle"></ion-icon>
+        </button>
+        <ul class="navMenu">
+          <li class="navMenuItem">
+            <a href="./index.html" class="navMenuLink active">Inicio</a>
+          </li>
+          <li class="navMenuItem">
+            <a href="./pages/nosotros.html" class="navMenuLink">Nosotros</a>
+          </li>
+          <li class="navMenuItem">
+            <a href="./pages/compra.html" class="navMenuLink">Compra en linea</a>
+          </li>
+          <li class="navMenuItem">
+            <a href="./pages/dondecomprar.html" class="navMenuLink">Donde comprar</a>
+          </li>
+          <li class="navMenuItem">
+            <a href="./pages/contacto.html" class="navMenuLink">Contacto</a>
+          </li>
+          <li class="navMenuItem">
+            <a href="./carrito.html" class="navMenuLink carrito">
+              <ion-icon name="cart-outline"></ion-icon> <span class="numero">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- SECCION INDEX -->
+      <section id="section1">
+        <h1 class="tituloPrincipal">Cerveza Texcoco</h1>
+        <h2>Artesanal</h2>
+        <div class="containerVideo">
+          <iframe class="iframe" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTexcocoMeLate%2Fvideos%2F1478267082612219&width=500&show_text=false&height=282&appId" frameborder="0" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+        </div>
+        <div class="containerNoticias">
+          <h3>Conoce nuestro proceso artesanal</h3>
+          <p>
+            El movimiento de las Artesanales promueve el consumo de cervezas para “saborear”, queremos que te lleves en tu paladar una agradable sencación en combinación con tus alimentos favoritos.
+          </p>
+        </div>
+      </section>
+      <section id="section2">
+        <h3>Conoce nuestros estilos</h3>
+        <div class="boxGaleria">
+          <div class="boxBloque">
+            <div class="boxImg">
+              <img src="./images/pale.jpg" alt="Cerveza Pale" />
+            </div>
+            <div class="boxContenido">
+              <div>
+                <h2>Pale Ale</h2>
+                <p>
+                  Cerveza clara que combina el amargor característico de los
+                  lúpilos Cascade y Citra, con la frescura de las cervezas Ales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="boxBloque">
+            <div class="boxImg">
+              <img src="./images/porter.jpg" alt="Cerveza Porter" />
+            </div>
+            <div class="boxContenido">
+              <div>
+                <h2>Porter</h2>
+                <p>
+                  Cerveza oscura que guarda un especial balance entre amargor y
+                  frescura, ideal para disfrutar con alimentos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="boxBloque">
+            <div class="boxImg">
+              <img src="./images/sweet.jpg" alt="Cerveza Sweet" />
+            </div>
+            <div class="boxContenido">
+              <div>
+                <h2>Sweet Stout</h2>
+                <p>
+                  Cerveza negra de maltas tostadas que le dan su característico
+                  color negro, además de olor y sabor a café.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="containerFooter">
+        <div class="containerSocial">
+          <a href="https://www.facebook.com/people/Cerveza-Texcoco/100054299869365/" target="_blank" class="btn btnFacebook">
+            <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+          </a>
+        </div>
+        <div class="containerLogo">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo3.jpg" alt="Logo Cerveza Texcoco" />
+          </a>
+        </div>
+        <div class="containerSocial">
+          <a href="https://www.instagram.com/cerveza_texcoco/?hl=es" target="_blank" class="btn btnInstagram">
+            <ion-icon class="instagram" name="logo-instagram"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <p>
+        CERVEZA TEXCOCO. TODOS LOS DERECHOS RESERVADOS.
+      </p>
+    </footer>
+    <!-- LINK ION-ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- LINK JS APP-->
+    <script src=".//app/app.js"></script>
+  </body>
+</html>

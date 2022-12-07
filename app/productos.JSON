@@ -1,0 +1,35 @@
+[
+  {
+   "id": "Pale",
+   "nombre": "Pale Ale",
+   "imagen": "../images/pale.jpg",
+   "tipo": "Cerveza Clara",
+   "resumen": "Esta cerveza clara combina el amargor característico de los lúpulos con la frescura de las cervezas Ale. Ideal para acompañar con tus ensaladas, comidas picosas y mariscos.",
+   "smr": "17",
+   "cuerpo": "Ligero",
+   "ibus": "33",
+   "precio": "45"
+  },
+  {
+    "id": "Sweet",
+    "nombre": "Sweet Stout",
+    "imagen": "../images/sweet.jpg",
+    "tipo": "Cerveza Oscura",
+    "resumen": "Las maltas tostadas en su elaboración le dan su característico color negro, además de olor y aroma a café.",
+    "smr": "36",
+    "cuerpo": "Medio y cremoso",
+    "ibus": "30",
+    "precio": "50"
+   },
+   {
+    "id": "Porter",
+    "nombre": "Porter",
+    "imagen": "../images/porter.jpg",
+    "tipo": "Cerveza Clara",
+    "resumen": "Nuestra porter guarda un especial balance entre amargor y frescura, ideal para disfrutar con alimentos.",
+    "smr": "33",
+    "cuerpo": "Pleno",
+    "ibus": "38",
+    "precio": "55"
+   }
+]

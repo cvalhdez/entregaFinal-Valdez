@@ -1,4 +1,4 @@
-fetch("../app/productos.json")
+fetch("../app/listaProductos.json")
   .then(response => response.json())
   .then((data) => {
     productos = data;
